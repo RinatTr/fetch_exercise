@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+div.dogsApp, div.ghibliApp {
+  height: 400px;
+  background-color: lightgrey;
+  border: 1px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.dogs {
+  margin-top: 10px;
+  margin-left: 10px;
+}

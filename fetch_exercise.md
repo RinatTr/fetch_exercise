@@ -19,3 +19,5 @@ When the user selects a film, underneath the `select` box, information about the
 Each time the user selects a new film, the information about that movie should replace the previous movie.
 
 **Question to consider:** Do you have to make a new request every time the user selects a movie? Is there a way to pre-load all of the movies? Where and how would you store these movies?
+
+// flow: load domcontent -> load fetch request -> fill the select menu with options, store it in var -> on click, fill sumthn else
