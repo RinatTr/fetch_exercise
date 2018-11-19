@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: sans-serif;
+  font-family: verdana, sans-serif;
 }
 
 div.dogsApp, div.ghibliApp {
@@ -15,4 +15,9 @@ div.dogsApp, div.ghibliApp {
 .dogs {
   margin-top: 10px;
   margin-left: 10px;
+}
+
+.movieInfo {
+  background-color: lightblue;
+  height: 300px;
 }
