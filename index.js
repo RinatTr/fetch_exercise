@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         img.setAttribute("src",dogImgURL.message);
         img.style.height = "300px";
         img.style.width = "auto";
+        img.style.border = "2px solid white"
       });
   })
 

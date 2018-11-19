@@ -6,18 +6,29 @@ body {
 
 div.dogsApp, div.ghibliApp {
   height: 400px;
-  background-color: lightgrey;
+  background-color: #e0e0e0;
   border: 1px solid black;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
+.textArea {
+  margin-left: 5px;
+}
+
 .dogs {
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 1px;
+
 }
 
 .movieInfo {
-  background-color: lightblue;
-  height: 300px;
+  background: radial-gradient(ellipse at center, #FCFCFC 0%,rgba(125,185,232,0) 100%);
+  height: auto;
+  font-size: 13px;
+  margin: 30px;
+}
+
+.movieInfo p {
+  margin: 10px;
 }
